@@ -1,0 +1,23 @@
+.header {
+  composes: header from 'composesStyles/composes.css';
+}
+.form {
+  padding: 20px 0;
+  text-align: center;
+}
+.input {
+  composes: input from 'composesStyles/composes.css';
+}
+.input::placeholder {
+  color: var(--accentBlue);
+}
+.input:focus {
+  outline: none;
+  box-shadow: 0px 0px 1px 1px var(--hoverBlue);
+  border: 1px solid var(--hoverBlue);
+}
+.label {
+  margin-right: 10px;
+  font-weight: 500;
+  color: var(--secondary);
+}

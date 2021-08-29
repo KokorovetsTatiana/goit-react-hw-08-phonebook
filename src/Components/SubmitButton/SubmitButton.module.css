@@ -1,0 +1,8 @@
+.button {
+  composes: button from 'composesStyles/composes.css';
+}
+.button:hover {
+  background-color: var(--hoverBlue);
+  box-shadow: var(--shadowBtn);
+  cursor: pointer;
+}
