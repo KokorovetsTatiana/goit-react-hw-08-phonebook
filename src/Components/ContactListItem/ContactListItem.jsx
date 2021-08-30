@@ -1,7 +1,6 @@
 import css from './ContactListItem.module.css';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 import { GoTrashcan } from 'react-icons/go';
-import { GoPencil } from 'react-icons/go';
 import Loader from 'react-loader-spinner';
 import toast from 'react-hot-toast';
 import PropTypes from 'prop-types';
@@ -26,13 +25,6 @@ export const ContactListItem = ({ contact, editButtonHandler }) => {
     <li className={css.listItem}>
       <span>{contact.name}</span>
       <span>{contact.number}</span>
-      <button
-        type="button"
-        className={css.button}
-        onClick={editButtonHandler(contact)}
-      >
-        edit <GoPencil size="16" />
-      </button>
       <button
         className={isLoading ? css.buttonFetching : css.button}
         type="button"

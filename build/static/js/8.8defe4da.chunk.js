@@ -1,0 +1,2 @@
+(this["webpackJsonpgoit-react-hw-08-phonebook"]=this["webpackJsonpgoit-react-hw-08-phonebook"]||[]).push([[8],{139:function(e,n,o){e.exports={container:"HomePage_container__fU_09",header:"HomePage_header__10fPV"}},272:function(e,n,o){"use strict";o.r(n);var a=o(139),r=o.n(a),t=o(3);n.default=function(){return Object(t.jsx)("div",{className:r.a.container,children:Object(t.jsx)("h1",{className:r.a.header,children:"In this directory you can keep a list of your subscribers and their phone numbers"})})}}}]);
+//# sourceMappingURL=8.8defe4da.chunk.js.map
